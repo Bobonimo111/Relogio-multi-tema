@@ -1,27 +1,48 @@
 /* Estilos */
-
+*{
+    font-family: 'Orbitron', sans-serif;
+}
 .title {
-    font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     text-align: center;
 }
 
 .conteiner>div {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #1C4E59;
 }
+#hora{
+    display: block;
+    font-size: 50px;
+    width: 100%;
+    margin-top: 15px ;
+    text-align: left;
+}
+#data{
+    font-size: 35px;
+    width: 100%;
+    text-align: right;
+
+   
+}
+
 
 main {
-    background-color: #1C4E59;
+    background-color: #263d42;
 }
 
 .conteiner {
     border-radius: 15px;
     background-color: #4BD4F2;
-    border: 7px #1C4E59 solid;
-    box-shadow: 0 0 0 10px #4BD4F2;
+    border: 7px #263d42 solid;
+    box-shadow: 0 0 10px 10px #4BD4F2;
+    position: relative;
+}
+.linha{
+    position: absolute;
+    border: 4px solid #263d42;
+    width: 100%;
+    
 }
 
 .buttons>button {
